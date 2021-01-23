@@ -1,0 +1,29 @@
+VECTOR LENGTH = 1E+01 -- REPETITIONS = 10000
+full_size_zeros()                               11.9991 ms
+full_size_nones()                               11.9965 ms
+appending()                                     14.9987 ms
+
+VECTOR LENGTH = 1E+02 -- REPETITIONS = 10000
+full_size_zeros()                               62.9978 ms
+full_size_nones()                               77.0206 ms
+appending()                                    104.9771 ms
+
+VECTOR LENGTH = 1E+03 -- REPETITIONS = 10000
+full_size_zeros()                              678.2165 ms
+full_size_nones()                              688.7083 ms
+appending()                                   1199.5907 ms
+
+VECTOR LENGTH = 1E+04 -- REPETITIONS = 10000
+full_size_zeros()                             5171.9534 ms
+full_size_nones()                             7112.9203 ms
+appending()                                   9188.3755 ms
+
+VECTOR LENGTH = 2E+04 -- REPETITIONS = 10000
+full_size_zeros()                            11977.6602 ms
+full_size_nones()                            12878.3224 ms
+appending()                                  19577.7071 ms
+
+VECTOR LENGTH = 5E+04 -- REPETITIONS = 10000
+full_size_zeros()                            29528.8155 ms
+full_size_nones()                            33929.6567 ms
+appending()                                  47782.5432 ms
